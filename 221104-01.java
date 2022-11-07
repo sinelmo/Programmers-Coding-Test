@@ -1,3 +1,4 @@
+// k의 개수(못풀었음)
 class Solution {
     public int solution(int i, int j, int k) {
         int answer = 0;

@@ -1,3 +1,4 @@
+// 직사각형 넓이 구하기
 class Solution {
     public int solution(int[][] dots) {
         int answer = 0;

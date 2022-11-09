@@ -5,7 +5,7 @@ class Solution {
         String[] vowel = {"a", "e", "i", "o", "u"};
         
         for(int i = 0; i < vowel.length; i++) {
-            my_string = my_string.replaceAll(vowel[i], "");
+            my_string = my_string.replace(vowel[i], "");
         }
         
         return answer = my_string;

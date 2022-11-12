@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// 최빈값 구하기 (못풀었음)
+// 최빈값 구하기 (못풀었음) 
 class Solution {
     public int solution(int[] array) {
         int answer = 0;

@@ -1,4 +1,4 @@
-// 컨트롤 제트
+// 컨트롤 제트 (s = 1 1 1 Z Z 일 경우 result = 1 )
 import java.util.ArrayList;
 
 class Solution {

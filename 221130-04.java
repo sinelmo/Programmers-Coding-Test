@@ -4,7 +4,6 @@ import java.math.BigInteger;
 class Solution {
     public int solution(String my_string) {
         int answer = 0;
-        
         String result[] = my_string.split(" ");
         
         for(int i = 0; i < result.length; i++) {

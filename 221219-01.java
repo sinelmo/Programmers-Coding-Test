@@ -16,7 +16,6 @@ class Solution {
                     //System.out.println("dots["+j+"][1] - dots["+i+"][1]) / (dots["+j+"][0] - dots["+i+"][0])");
                     //System.out.println(((double)dots[j][1] - (double)dots[i][1]) + " / " + ((double)dots[j][0] - (double)dots[i][0]));
                     inc = ((double)dots[j][1] - (double)dots[i][1]) / ((double)dots[j][0] - (double)dots[i][0]);
-                    //System.out.println(inc);
                     if(list.indexOf(inc) < 0) {
                         list.add(inc);
                         //System.out.println("추가 : " + inc);

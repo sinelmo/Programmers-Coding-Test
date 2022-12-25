@@ -22,3 +22,24 @@ class Solution {
         return answer;
     }
 }
+
+//---------------------다른풀이---------------------------
+import java.util.*;
+
+class Solution {
+    public long solution(long n) {
+        long answer = 0;
+        
+        String[] num = Long.toString(n).split("");
+        
+        Arrays.sort(num);
+        
+        StringBuilder sb = new StringBuilder();
+        
+        for(String s : num) {
+            sb.insert(0, s);
+        }
+        
+        return answer = Long.valueOf(sb.toString());
+    }
+}

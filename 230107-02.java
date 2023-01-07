@@ -10,9 +10,9 @@ class Solution {
                 idx = 0;
             } else {
                 if(idx % 2 == 0) {
-                    sb.append(toUpperCase(s.charAt(i)));
+                    sb.append(Character.toUpperCase(s.charAt(i)));
                 } else {
-                    sb.append(toLowerCase(s.charAt(i)));
+                    sb.append(Character.toLowerCase(s.charAt(i)));
                 }
                 idx++;
             }
